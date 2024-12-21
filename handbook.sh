@@ -1,6 +1,6 @@
 #!/bin/sh
 
-DOCS_PATH="/usr/local/share/doc/freebsd/en"
+DOCS_PATH="/usr/local/share/doc/freebsd/"
 
 # Ensure the documentation path exists
 if [ ! -d "$DOCS_PATH" ]; then
