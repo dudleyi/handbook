@@ -18,11 +18,11 @@ This script enables users to access, navigate, and view the authoritative FreeBS
    ```sh
    handbook
    ```
-2. **Search Handbook:**
+2. **Search Handbook (planned):** 
    ```sh
    handbook -s "keyword"
    ```
-3. **Open Specific File:**
+3. **Open Specific File (planned):**
    ```sh
    handbook -F filename
    ```
