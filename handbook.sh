@@ -1,5 +1,16 @@
 #!/bin/sh
 
+###############################
+# D's FreeBSD Handbook (DFBH)
+# Description: This small script allows you to read the FreeBSD Handbook within a terminal. Install the FreeBSD Documentation usind bsdconfig first, and then you're good to go.
+# Author: Dudley I.
+# Contact: dudleyi@yahoo.com
+# Created: 2024-12-21
+# Version: 0.0.1alpha
+# License: BSD 3-Clause License
+# URL: https://github.com/dudleyi/handbook
+###############################
+
 DOCS_PATH="/usr/local/share/doc/freebsd/"
 
 # Ensure the documentation path exists
