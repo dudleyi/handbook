@@ -1,12 +1,23 @@
 #!/bin/sh
 
+###############################
+# D's FreeBSD Handbook (DFBH)
+# Description: This small script allows you to make a quick symlink to the handbook base folder, speeding up access. 
+# Author: Dudley I.
+# Contact: dudleyi[at]yahoo[dot]com
+# Created: 2024-12-21
+# Version: 0.0.1alpha
+# License: BSD 3-Clause License
+# URL: https://github.com/dudleyi/handbook
+###############################
+
 # prep it by doing: chmod +x dfbh_symlink.sh
 
 # run it by doing: ./dfbh_symlink.sh
 
 # Define the target symlink path and source handbook directory
 HANDBOOK_SYMLINK="$HOME/handbook"
-HANDBOOK_SOURCE="/usr/share/doc/handbook"
+HANDBOOK_SOURCE="/usr/local/share/doc/freebsd"
 
 # Check if the symlink already exists and is valid
 if [ -L "$HANDBOOK_SYMLINK" ]; then

@@ -7,11 +7,11 @@ This script enables users to access, navigate, and view the authoritative FreeBS
 2. Keep the script simple and intuitive.
 
 ## Features
-1. **Symlink Creation:** On the first run, the script creates a `~/handbook` folder and symlinks the FreeBSD Handbook for easy future access.
-2. **File Execution (-F Flag):** Use the `-F` flag to pass a specific file name as a command for quick access.
+1. **Symlink Creation:** On the first run of `dfbh_symlink.sh`, the script creates a `~/handbook` folder and symlinks the FreeBSD Handbook for easy future access.
+2. **File Execution (planned):** Use the `-f` flag to pass a specific file name as a command for quick access.
 3. **Environment-Friendly:** Only relies on the `BROWSER` variable for viewing, avoiding tools like `xdg-open`.
 4. **Content Scrubbing:** Removes unnecessary elements (e.g., repetitive menus) for cleaner display in terminal sessions.
-5. **Search Capability:** Includes a simple search function with optional case sensitivity.
+5. **Search Capability (planned):** Includes a simple search function with optional case sensitivity.
 
 ## Usage Examples
 1. **View Handbook:**
@@ -38,4 +38,4 @@ This script enables users to access, navigate, and view the authoritative FreeBS
 
 --- 
 
-- Dudley
+- D
