@@ -1,6 +1,6 @@
 # D's FreeBSD Handbook (DFBH)
 
-This script enables users to access, navigate, and view the authoritative FreeBSD Handbook offline, seamlessly supporting both terminal and graphical sessions.
+This script enables users to access, navigate, and view the authoritative FreeBSD Handbook offline, seamlessly supporting both terminal and graphical sessions. All it needs is ``[lang]-freebsd-doc (misc/freebsd-doc-[lang])`` installed on the system.
 
 ## Core Principles
 1. Avoid external dependencies.
